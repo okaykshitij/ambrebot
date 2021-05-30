@@ -2,7 +2,7 @@ import tweepy
 import time
 
 from keys import *
-print('this is my bot')
+print('this is ambre bot')
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
