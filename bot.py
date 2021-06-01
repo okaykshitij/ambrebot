@@ -5,7 +5,7 @@ from keys import *
 print('this is ambre bot')
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
-api = tweepy.API(auth, wait_on_rate_limit=True)
+api = tweepy.API(auth)
 
 FILE_NAME = 'last_seen_id.txt'
 #api.update_status (status = 'test')
